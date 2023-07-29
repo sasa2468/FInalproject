@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <vector>
 #include <string>
 #include <fstream>
@@ -88,7 +88,7 @@ public:
 
         string userAnswer;
         cout << "Quiz：\"" << randomWord.getWord() << "\"の意味は何ですか？ ";
-        cin.ignore(); 
+        cin.ignore();
         getline(cin, userAnswer);
 
         if (userAnswer == randomWord.getMeaning()) {
@@ -144,7 +144,7 @@ int main() {
     cout << "こんにちは！英単語学習ツール Vocaです！\n" << "\n";
 
     // ファイル名を指定してWordListを作成
-    WordList wordList("wordlist.txt"); 
+    WordList wordList("wordlist.txt");
     int choice;
 
     do {
@@ -175,7 +175,7 @@ int main() {
 
             if (wordList.addWord(Word(word, meaning))) {
                 cout << "単語が追加されました。\n";
-            ｝
+            }
             break;
         }
         case 2: {
