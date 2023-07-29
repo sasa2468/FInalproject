@@ -78,7 +78,7 @@ public:
             return;
         }
 
-        // C++11以降のランダムライブラリを使用して乱数生成
+        // 乱数生成
         random_device engine;
         mt19937 gen(engine());
         uniform_int_distribution<> dist(0, words.size() - 1);
