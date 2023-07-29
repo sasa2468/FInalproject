@@ -175,10 +175,7 @@ int main() {
 
             if (wordList.addWord(Word(word, meaning))) {
                 cout << "単語が追加されました。\n";
-            }
-            else {
-                cout << "単語の追加に失敗しました。\n";
-            }
+            ｝
             break;
         }
         case 2: {
