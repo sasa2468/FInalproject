@@ -130,7 +130,7 @@ public:
         file.close();
     }
 
-    // イテレータを取得する
+    // イテレータ
     vector<Word>::iterator begin() {
         return words.begin();
     }
