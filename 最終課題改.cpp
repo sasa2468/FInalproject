@@ -141,7 +141,7 @@ public:
 };
 
 int main() {
-    cout << "こんにちは！英単語学修ツール Vocaです！\n" << "\n";
+    cout << "こんにちは！英単語学習ツール Vocaです！\n" << "\n";
 
     // ファイル名を指定してWordListを作成
     WordList wordList("wordlist.txt"); 
